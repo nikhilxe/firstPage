@@ -1,0 +1,48 @@
+*{
+    margin: 1rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: larger;
+}
+nav{
+    width: 60vw;
+}
+.bigimage{
+    width: 95vw;
+   /* margin: 10px 50px 20px;
+    margin-bottom: 2rem;
+*/}
+  h1{
+      font-size: 2rem;
+  }  
+  .container {
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+    .container div{
+       text-align: center;
+    }
+   .container>div>p{
+       font-size: x-large;
+       line-height: 1.5rem;
+   }
+   footer{
+       
+       background-color: black;
+       text-align: center;
+       color: white;
+       height: 4rem;
+       font-size: x-large;
+
+    }
+    li:hover{
+        cursor: pointer;
+        color:red}
